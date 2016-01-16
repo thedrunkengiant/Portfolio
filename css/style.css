@@ -1,0 +1,192 @@
+body {
+  font-family: "Corben";
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.green-background{
+  background-color: #DCE7A1
+}
+
+.green-text {
+  color:#DCE7A1
+}
+
+.pink-background {
+  background-color: #fc7876;
+}
+
+.pink-text {
+  color: #FC7876 !important
+}
+
+.blue-background {
+  background-color: #83A9D2;
+}
+
+.blue-text {
+  color: #83A9D2
+}
+.parrott-development-background {
+  background-image: url(../Images/parrott-development-alt.jpeg);
+  background-size: cover;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.benefits h3, p{
+  text-align:center;
+  padding:7px;
+}
+
+.karma-clone {
+  background-image: url(../Images/karma-clone-pic.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 200px;
+
+}
+
+.about-me-project {
+  background-image: url(../Images/Ecommerce.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 200px;
+
+}
+
+.showcase {
+  background-color: #EFEFEF;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.showcase-heading {
+  margin-bottom: 40px;
+}
+
+.email, .skype, .linkedin, .github {
+  font-size: 50px;
+}
+
+.fa-envelope-o {
+  color: red;
+}
+
+.fa-skype {
+  color: #12A5F4;
+}
+
+.fa-linkedin-square {
+  color: #0077B5;
+}
+
+.fa-github{
+  color: #333333
+}
+
+.fa-heart {
+  color: #fc7876;
+}
+
+.heart {
+  font-size: 40px;
+}
+.contact {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  }
+
+@media screen and (min-width: 768px) {
+  .contact {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .karma-clone {
+  height: 300px
+  }
+
+  .about-me-project {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width : 480px) {
+  .contact {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }
+    .karma-clone {
+    margin-bottom: 10px;
+    }
+
+    .about-me-project {
+    margin-bottom: 10px;
+    }
+}
+    @media only screen and (min-width : 320px) {
+
+      .karma-clone {
+      margin-bottom: 15px;
+      }
+      .about-me-project {
+      margin-bottom: 15px;
+      }
+      .showcase-heading {
+        margin-bottom: 15px;
+      }
+      .green-background{
+        margin-bottom: 0;
+      }
+      .portfolio {
+        margin-bottom:0;
+      }
+
+      .benefits, .benefit-1, .benefit-2, .benefit-3 {
+        margin-top: -20px;
+      }
+    }
+
+    @media (min-width: 992px) {
+.contact {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  }
+
+.jumbotron {
+  max-height: 700px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 500px;
+  }
+
+  .karma-clone {
+  height: 350px;
+  margin-bottom: 15px;
+  }
+
+  .about-me-project {
+    height: 350px;
+  }
+
+}
+
+.footer-container {
+  border-top: solid 2px #83A9D2;
+}
+
+.content {
+  padding-top: 20px
+}
